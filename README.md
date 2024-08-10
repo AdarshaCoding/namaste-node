@@ -1,12 +1,12 @@
 # Namaste NodeJS
 
-**NodeJS is a JavaScript runtime environment**
+**NodeJS is a JavaScript runtime environment built using Chrome's V8 engine**
 
-### Before start learning NodeJS
+### Before learning NodeJS
 
-1.  JavaScript Basics
-2.  Install NodeJS, VS Code
-3.  If you want add few extensions in VS Code a. Prettier - Code Formatter, vscode-icons and update the settings to pickup prettier on save option (shift + alt + f).
+1.  Learn JavaScript Basics
+2.  Install NodeJS, VS Code, git, github repository (Softwares & tools).
+3.  If you want add few extensions in VS Code Prettier - Code Formatter, vscode-icons and update the settings to pickup prettier on save option (shift + alt + f).
 
 ### About NodeJS & V8 Engine
 
