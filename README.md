@@ -25,6 +25,7 @@
   - By default in NodeJS - package.json - {"type":"commonjs"}
   - module.exports = {}
   - require("path")
+  - module.exports is an empty object {} - functions/variables can be added to this object - one of the way to export.
   2.  ES modules (MJS/ES6 module/ESM - Newer way)
   - package.json - {"type" : "module"}
   - export and import keywords are used directly on function/variables

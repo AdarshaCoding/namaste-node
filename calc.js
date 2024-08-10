@@ -10,5 +10,11 @@ function sub(a, b) {
 
 var name1 = "Adarsha";
 
-module.exports = { add, sub, name1 };
+console.log(module.exports); //Empty JS Object
+
+module.exports.add = add;
+module.exports.sub = sub;
+module.exports.name1 = name1;
+
+// module.exports = { add, sub, name1 };
 // module.exports = { add: add, sub: sub };
