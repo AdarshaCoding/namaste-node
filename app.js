@@ -1,5 +1,6 @@
 // const calc = require("./calc.js");
-const { add, sub, name1 } = require("./calc");
+// const { add, sub, name1 } = require("./calc");
+import { add, sub, name1 } from "./calc.js";
 
 var name = "Namaste NodeJS";
 var a = 10;

@@ -14,3 +14,17 @@
 - V8 engine is written in C++ language
 - NodeJS also a combination of C++ and JavaScript
 - Running a JavaScript program outside the browser: node app.js
+
+### Episode 4:
+
+- Node modules and require keyword
+- Different modules can be created and exports them to use in different modules.
+- require keyword is used to import the module into another module.
+- There are two different modules
+  1.  Common JS module (CJS - Older way)
+  - By default in NodeJS - package.json - {"type":"commonjs"}
+  - module.exports = {}
+  - require("path")
+  2.  ES modules (MJS/ES6 module/ESM - Newer way)
+  - package.json - {"type" : "module"}
+  - export and import keywords are used directly on function/variables
