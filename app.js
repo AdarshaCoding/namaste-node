@@ -1,4 +1,4 @@
-const { add, sub } = require("./calculator");
+const { add, sub } = require("");
 const data = require("./data.json");
 
 var name = "Namaste NodeJS";
