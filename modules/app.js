@@ -14,3 +14,8 @@ console.log(module);
 if (require.main === module) {
   myMain(a, b);
 }
+
+/**
+ * ---- CommonJS Module ---
+ *
+ */
