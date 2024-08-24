@@ -1,4 +1,5 @@
-const { sum, sub } = require("./calc");
+const { sub } = require("./calculate/sub");
+const { sum } = require("./calculate/sum");
 console.log("Main Modules...");
 
 let a = 20;
