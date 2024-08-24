@@ -1,5 +1,9 @@
-const { sub } = require("./calculate/sub");
-const { sum } = require("./calculate/sum");
+//Instead of doing this, we can require calculate folder directly as it works as module now
+// const { sub } = require("./calculate/sub");
+// const { sum } = require("./calculate/sum");
+
+// const { sum, sub } = require("./calculate/index");
+const { sum, sub } = require("./calculate"); //index.js will be considered automatically
 console.log("Main Modules...");
 
 let a = 20;
