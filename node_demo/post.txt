@@ -1,0 +1,52 @@
+Hello Everyone! Node.JS (Run JavaScript Everywhere) 🚀
+I was just going through how NodeJS evolved over the years since 2009 
+Ryan Dahl who is the creator of Node.JS but he left and working on something else (DENO) currently 😉 
+
+Don't worry, NodeJs runs on millions (over 6.3 million websites use Node.js as July 2024) of machines even today and will be in future. Mainly used to build web servers and deployed onto some hardware machine (CPU).
+
+Before diving deep into Node, I would like thank Akshay Saini 🚀 for creating Namaste Node 🙏
+I will be sharing my learnings about NodeJS in coming days 🤞
+
+The NodeJS creator wanted create something which will not block the execution of any I/O events. Examples
+ - Task which performs data processing on database
+ - Task which makes a network request
+ - Writing or reading the files from disk
+
+NodeJS has an event driven architecture with non blocking I/O 👌
+
+These tasks will take sometime to process based on the request and gives back the response, so till that time the program execution should not hold by the processor, it keeps running the other code and when we receive the response then that could be executed back. 
+
+This is achieved using "call backs", when things are done then call the attached function back. Big thanks to "callbacks". Example - 
+setTimeout(function(){ 
+ console.log("Run after two seconds"), 
+2000);
+
+No function should directly perform I/O operation, it must be processed with callbacks.
+
+Ryan Dahl gave a demo on NodeJS in 2009 and how it would be helping people on and asked for funding. Joyent company offered Ryan to work and build NodeJS with their funding.
+
+In 2010, npm - package manager for NodeJs developed by Isaac.
+
+Development was going on and it took some shape then Ryan left the company in 2012.
+
+In between, other developer created io.js by forking the node.js and some dram happened then finally Node.js foundation formed and merged main NodeJs and io.js in 2015.
+
+In 2019, the JS Foundation and Node.js Foundation merged to form the OpenJS Foundation.
+
+Currently, OpenJS foundation maintaining NodeJS and providing the updates. 
+
+So finally, I would like to end this post with "What is NodeJS"?
+It is not programming language or a framework but it is "JavaScript Runtime" which is completely built on Google Chrome's V8 JS engine(C++).
+
+NodeJs === V8 JS Engine + "Other super power (libuv)"
+V8 JS Engine will handle all the synchronous code (only execute JS code) while "libuv" will take care of all the asynchronous code. 
+
+Whenever V8 Engine encounter with asynchronous code, it just offloads to libuv library 😂 but don't ever under estimate the power of V8 engine, it executes things in not even a snap of click. 
+
+We will dive more into all these concepts in next posts until then keep learning and keep sharing 🙏
+
+Akshay Saini 🚀 NamasteDev.com Ryan Dahl
+
+
+Cheers,
+Adarsha 🚀
