@@ -1,4 +1,12 @@
-console.log("Calc Module...");
+function main() {
+  console.log("Calc Module...");
+  console.log("Expresion:", 2 + 2);
+  sum(10, 40);
+  sub(30, 50);
+}
+function test() {
+  console.log("Calc... test function()");
+}
 
 function sum(x, y) {
   const result = x + y;
@@ -10,13 +18,9 @@ function sub(x, y) {
   console.log(result);
 }
 
-function myMain(x, y) {
-  sum(x, y);
-  sub(x, y);
-}
-
 if (require.main === module) {
-  myMain(10, 20);
+  main();
 }
 
+test();
 module.exports = { sum, sub };

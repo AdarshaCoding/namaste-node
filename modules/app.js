@@ -1,21 +1,19 @@
-// const calc = require("./calc.js");
-const { sum, sub } = require("./calc.js");
+const { sum, sub } = require("./calc");
 console.log("Main Modules...");
 
 let a = 20;
-let b = 20;
+let b = 30;
 
-function myMain(x, y) {
-  sum(x, y);
-  sub(x, y);
-}
-console.log(require.main);
-console.log(module);
-if (require.main === module) {
-  myMain(a, b);
-}
+sum(a, b);
+sub(a, b);
 
 /**
- * ---- CommonJS Module ---
- *
+ * ---- CommonJS Module (CJS Module) ---
+ * required/imported the module "calc" in app.js using require key
+ * .js extension is optional in CJS
+ * runs synchronously
+ * package.json - by default "type" :"commanJS"
+ * code runs in "non strict" mode -
+ *     - let name = "Adarsha"
+ *     - city = "Bengaluru"  // this is also fine but not in strict mode (ESM/MJS uses)
  */
