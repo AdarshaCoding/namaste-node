@@ -6,6 +6,10 @@
 const { sum, sub } = require("./calculate"); //index.js will be considered automatically
 console.log("Main Modules...");
 
+console.log(__dirname);
+console.log(__filename);
+console.log(require);
+
 let a = 20;
 let b = 30;
 
